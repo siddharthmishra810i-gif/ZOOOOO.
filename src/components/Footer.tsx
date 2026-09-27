@@ -81,9 +81,33 @@ export const Footer: React.FC = () => {
             </ul>
           </div>
         </div>
+        {/* Academic Submission Details */}
+        <div className="mt-8 pt-6 border-t border-[#D8D1BD]/80">
+          <div className="bg-[#FAF8F3] border border-[#D8D1BD] rounded p-4 sm:p-5 max-w-xl mx-auto shadow-xs">
+            <div className="text-[10px] font-mono uppercase tracking-widest text-[#734528] font-bold text-center mb-3">
+              Submission Details
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs font-serif divide-y sm:divide-y-0 sm:divide-x divide-[#E6E1D1]">
+              <div className="text-center sm:text-left sm:pr-4">
+                <span className="text-[10px] font-mono uppercase tracking-wider text-[#8C8270] block mb-1">
+                  Submitted By:
+                </span>
+                <p className="font-bold text-sm text-[#162617]">Naziya Parween</p>
+                <p className="text-[#4A453E]">B.Sc (Hons.) Zoology</p>
+                <p className="font-mono text-[11px] text-[#685F53] mt-0.5">Roll no: 26/7102</p>
+              </div>
 
+              <div className="text-center sm:text-left sm:pl-4 pt-3 sm:pt-0 flex flex-col justify-start">
+                <span className="text-[10px] font-mono uppercase tracking-wider text-[#8C8270] block mb-1">
+                  Submitted To:
+                </span>
+                <p className="font-bold text-sm text-[#162617]">Dr. Gauri Nandi</p>
+              </div>
+            </div>
+          </div>
+        </div>
         {/* Bottom Bar */}
-        <div className="pt-8 border-t border-[#D8D1BD] flex flex-col sm:flex-row items-center justify-between text-[11px] font-serif text-[#8C8270] gap-3">
+        <div className="mt-6 pt-6 border-t border-[#D8D1BD] flex flex-col sm:flex-row items-center justify-between text-[11px] font-serif text-[#8C8270] gap-3">
           <p>© Natural History Field Guide Series · Curated for Academic Study</p>
           <div className="flex items-center gap-4">
             <span>Kingdom Animalia</span>
